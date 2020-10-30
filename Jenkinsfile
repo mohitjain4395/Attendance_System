@@ -18,7 +18,7 @@ pipeline {
                 stage('Cloning Git') {
       steps {
               logstash{
-        git 'https://github.com/rtkjain97/attendance.git'
+        git 'https://github.com/mohitjain4395/Attendance_System.git'
               }
       }
     }
