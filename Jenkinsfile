@@ -1,6 +1,6 @@
 pipeline {
         environment {
-    registry = "rtkjain/atdsystem"
+    registry = "mohitjain4395/atdsystem"
     registryCredential = 'docker-hub-credentials'
     dockerImage = ''
     dockerImageLatest = ''
@@ -10,7 +10,7 @@ pipeline {
             stage('Init') {
                   steps {
                           logstash{
-                        echo 'Hi, this is Ritik Jain'
+                        echo 'Hi, this is Mohit Jain'
                         echo 'I am executing Attendance system using pipeline'
                           }
                   }
